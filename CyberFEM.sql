@@ -199,11 +199,5 @@ WHERE NOT EXISTS (
   FROM Book_Numbers
   WHERE Format.item_id = Book_Numbers.item_id
 );
-/*==================== CREATING A DATABASE DIAGRAM ======================*/
-/*==================== ADVANCED OPTIONS ======================
-create a stored procedure and demonstrate how it runs
-create a trigger and demonstrate how it runs
-create an event and demonstrate how it runs
-create a view with 3-4 base tables; prepare and demonstrate query that uses the view to produce logically arranged result set
-*/
+
 
